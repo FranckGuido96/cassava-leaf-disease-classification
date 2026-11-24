@@ -1,0 +1,12 @@
+# Model files are large and change often: keep them on Hugging Face / Kaggle, not in git
+*.keras
+*.h5
+
+# Python and notebook noise
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Gradio local files
+.gradio/
+flagged/
